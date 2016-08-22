@@ -3,7 +3,7 @@
 
 
 ###############
-# Remainder from: https://raw.githubusercontent.com/github/gitignore/master/Android.gitignore
+# Remainder adapted from: https://raw.githubusercontent.com/github/gitignore/master/Android.gitignore
 
 # Built application files
 *.apk
