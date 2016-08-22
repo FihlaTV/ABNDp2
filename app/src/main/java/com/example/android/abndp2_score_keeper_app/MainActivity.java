@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     // Shooters shoot 3 arrows per set, for 5 sets max, alternating turns per shot.
     // After the 3 arrows for each set, the archer with highest cumulative set score
     //      is awarded 2 set points for this set (and loser is awarded 0).
-    // Or, if their cumulative set score's tie for that set (after the 3 arrows),
+    // Or, if their cumulative score's tie for that set (after the 3 arrows),
     //      both archers are awarded 1 set point.
     // The game is complete when an archer reaches 6 set points.
     //    If both archers reach 5 set points (5-5 tie) it's a shoot-off and
