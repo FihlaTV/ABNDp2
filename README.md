@@ -1,7 +1,7 @@
 # Android Basics Nanodegree project 2 
 
-We had to build a single-screen app in this project to keep a game score, so I built an app to score target archery match(individual) games as played in the 
-[Rio 2016 Olympic](https://www.rio2016.com/en/archery) games.
+We had to build a single-screen app in this project to score a game, so I built an app to score individual match-play target archery as played at the
+[Rio 2016 Olympics](https://www.rio2016.com/en/archery).
 
 #### Scoring is simple:
 
