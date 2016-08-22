@@ -44,7 +44,7 @@ captures/
 
 #.idea/workspace.xml
 #.idea/libraries
-# _tlp_
+# _tlp_ http://stackoverflow.com/questions/32878888/android-idea-misc-xmls-languagelevel-tag-keeps-changing-jdks
 .idea
 
 # Keystore files
