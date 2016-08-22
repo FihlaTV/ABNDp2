@@ -46,7 +46,7 @@ We had to build a single-screen app in this project to score a game, so I built 
 
 - When a scoring button is pressed, the **updateScoreA** or **updateScoreB** MainActivity methods run, and access the view's "tag" element to know which exact button was pressed.
 
-- See the [code here](https://github.com/devted/ABNDp2/blob/master/app/src/main/java/com/example/android/abndp2_score_keeper_app/MainActivity.java).
+- Code [is here](https://github.com/devted/ABNDp2/blob/master/app/src/main/java/com/example/android/abndp2_score_keeper_app/MainActivity.java).
 
 - Built in Android Studio with Build --> Rebuild Project. 
 
@@ -54,7 +54,7 @@ We had to build a single-screen app in this project to score a game, so I built 
 # 
 ## Layout notes
  
-- The root ViewGroup is a RelativeLayout parent so the bottom-center reset button and bullseye ImageView may be positioned precisely. See the [layout here](https://github.com/devted/ABNDp2/blob/master/app/src/main/res/layout/activity_main.xml).
+- The root ViewGroup is a RelativeLayout parent so the bottom-center reset button and bullseye ImageView may be positioned precisely. Layout [is here](https://github.com/devted/ABNDp2/blob/master/app/src/main/res/layout/activity_main.xml).
 
 - The topmost scorebar uses a nested LinearLayout-->RelativeLayout tree; the LinearLayout has a vertical orientation so a horizontal line can be added below the scorebar; the scorebar uses RelativeLayout view group so the horizontally-centered ""# - #"" set score may be precicely positioned beneath the scorebar.
 
