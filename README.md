@@ -56,7 +56,7 @@ We had to build a single-screen app in this project to score a game, so I built 
  
 - The root ViewGroup is a RelativeLayout parent so the bottom-center reset button and bullseye ImageView may be positioned precisely. Layout [is here](https://github.com/devted/ABNDp2/blob/master/app/src/main/res/layout/activity_main.xml).
 
-- The topmost scorebar uses a nested LinearLayout-->RelativeLayout tree; the LinearLayout has a vertical orientation so a horizontal line can be added below the scorebar; the scorebar uses RelativeLayout view group so the horizontally-centered ""# - #"" set score may be precicely positioned beneath the scorebar.
+- The topmost scorebar uses a nested LinearLayout-->RelativeLayout tree; the LinearLayout has a vertical orientation so a horizontal line can be added below the scorebar; the scorebar uses RelativeLayout view group so the horizontally-centered "# - #" set score may be precicely positioned beneath the scorebar.
 
 - The score buttons are a nested tree of LinearLayouts with horizontal-->vertical nesting; this lets me precisely place two vertical LinearLayouts side-by-side for the scoring buttons and a vertical View "line".
 
