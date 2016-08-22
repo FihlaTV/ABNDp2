@@ -18,7 +18,7 @@ We had to build a single-screen app in this project to score a game, so I built 
 ###### Table of contents
 1. [Preview images](#preview-images)
 2. [Coding notes](#coding-notes)
-3. [Layout notes](#layout-notes)
+3. [Design notes](#design-notes)
 
 
 # 
@@ -52,12 +52,15 @@ We had to build a single-screen app in this project to score a game, so I built 
 
 
 # 
-## Layout notes
+## Design notes
  
 - The root ViewGroup is a RelativeLayout parent so the bottom-center reset button and bullseye ImageView may be positioned precisely. Layout [is here](https://github.com/devted/ABNDp2/blob/master/app/src/main/res/layout/activity_main.xml).
 
-- The topmost scorebar uses a nested LinearLayout-->RelativeLayout tree; the LinearLayout has a vertical orientation so a horizontal line can be added below the scorebar; the scorebar uses RelativeLayout view group so the horizontally-centered "# - #" set score may be precicely positioned in the screen's center.
+- The topmost scorebar uses a nested LinearLayout-->RelativeLayout tree; the LinearLayout has a vertical orientation so a horizontal line can be added below the scorebar; the scorebar uses RelativeLayout view group so the horizontally-centered "# - #" set score may be precicely positioned in the view's center.
 
 - The score buttons are a nested tree of LinearLayouts with horizontal-->vertical nesting; this lets me precisely place two vertical LinearLayouts side-by-side for the scoring buttons, and a vertical View "line" between them.
+
+- A button_border.xml resource was added to the *drawable* folder with a 1dp width rectangle, to use as a border for the white buttons.
+
 
 
